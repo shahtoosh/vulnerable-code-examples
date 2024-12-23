@@ -22,4 +22,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - run: semgrep ci  
-    - run: semgrep --config ./home/kali/Downloads/newtest/newtest/python/injection/log-inj.yml
+    - run: semgrep --config r/eqU0kpR/liyashatush_personal_org.flask-log-injection logging-injection.py
