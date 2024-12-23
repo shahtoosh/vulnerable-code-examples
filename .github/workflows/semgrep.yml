@@ -21,4 +21,5 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v4
-    - run: semgrep ci  semgrep --config r/eqU0kpR/liyashatush_personal_org.flask-log-injection
+    - run: semgrep ci  
+    - run: semgrep --config r/eqU0kpR/liyashatush_personal_org.flask-log-injection
