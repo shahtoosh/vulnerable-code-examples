@@ -22,4 +22,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - run: semgrep ci  
-    - run: semgrep --config r/eqU0kpR/liyashatush_personal_org.flask-log-injection logging-injection.py
+    - run: semgrep  --config r/d8UrGlq/liya851_rambler_ru.flask-log-injection logging-injection.py
